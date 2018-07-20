@@ -1,0 +1,223 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Language" content="zh-cn">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="tingyun-rum.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KMS激活系统</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style>
+        /*web background*/
+
+        .container {
+            display: table;
+            height: 100%;
+        }
+
+        .row {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        /* centered columns styles */
+
+        .row-centered {
+            text-align: center;
+        }
+
+        .col-centered {
+            display: inline-block;
+            float: none;
+            text-align: left;
+            margin-right: -4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row row-centered">
+            <div class="well col-md-6 col-centered">
+                <form action="./kms.php" method="post" role="form">
+                    <label for="name">选择对应的系统版本：(cmd中输入 slmgr/dlv 查看版本)</label>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 10 Professional">Windows 10 Professional</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 10 Enterprise">Windows 10 Enterprise</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 10 Education">Windows 10 Education</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 10 Enterprise 2015 LTSB">Windows 10 Enterprise 2015 LTSB</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 10 Enterprise 2016 LTSB">Windows 10 Enterprise 2016 LTSB</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 8.1 Professional">Windows 8.1 Professional</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 8.1 Enterprise">Windows 8.1 Enterprise</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 8 Professional">Windows 8 Professional</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 8 Enterprise">Windows 8 Enterprise</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 7 Professional">Windows 7 Professional</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows 7 Enterprise">Windows 7 Enterprise</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Vista Business">Windows Vista Business</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Vista Enterprise">Windows Vista Enterprise</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2016 Datacenter">Windows Server 2016 Datacenter</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2016 Standard">Windows Server 2016 Standard</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2016 Essentials">Windows Server 2016 Essentials</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012">Windows Server 2012</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 Single Language">Windows Server 2012 Single Language</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 Country Specific">Windows Server 2012 Country Specific</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 Server Standard">Windows Server 2012 Server Standard</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 MultiPoint Standard">Windows Server 2012 MultiPoint Standard</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 MultiPoint Premium">Windows Server 2012 MultiPoint Premium</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 Datacenter">Windows Server 2012 Datacenter</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 R2 Server Standard">Windows Server 2012 R2 Server Standard</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 R2 Datacenter">Windows Server 2012 R2 Datacenter</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2012 R2 Essentials">Windows Server 2012 R2 Essentials</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 R2 Web">Windows Server 2008 R2 Web</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 R2 HPC edition">Windows Server 2008 R2 HPC edition</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 R2 Standard">Windows Server 2008 R2 Standard</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 R2 Enterprise">Windows Server 2008 R2 Enterprise</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 R2 Datacenter">Windows Server 2008 R2 Datacenter</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 R2 for Itanium-based Systems">Windows Server 2008 R2 for Itanium-based Systems</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 Standard">Windows Server 2008 Standard</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 Standard without Hyper-V">Windows Server 2008 Standard without Hyper-V</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 Enterprise">Windows Server 2008 Enterprise</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 Enterprise without Hyper-V">Windows Server 2008 Enterprise without Hyper-V</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 HPC">Windows Server 2008 HPC</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 Datacenter">Windows Server 2008 Datacenter</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 Datacenter without Hyper-V">Windows Server 2008 Datacenter without Hyper-V</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Server 2008 for Itanium-Based Systems">Windows Server 2008 for Itanium-Based Systems</label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="kms" value="Windows Web Server 2008">Windows Web Server 2008</label>
+                    </div>
+
+
+
+                    <br/>
+                    <button type="submit" class="btn btn-success btn-block">立即激活</button>
+                    <br/>
+                    <label for="name">激活步骤：下载后请右键以管理员身份运行，失败可尝试先<a href="./clean.php">清除激活</a></label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
