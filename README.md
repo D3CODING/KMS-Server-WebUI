@@ -9,7 +9,7 @@
 cat /proc/cpuinfo
 ```
 
-![Snipaste_2018-07-20_15-28-49](https://lichen0.cn/Snipaste/Snipaste_2018-07-20_15-28-49.png)
+![Snipaste_2018-07-20_15-28-49](https://i.lichen0.com/Snipaste/Snipaste_2018-07-20_15-28-49.png)
 
 3. 进入对应目录，运行激活服务器
 - 这里以Centos 7 Intel CPU为例
@@ -25,7 +25,7 @@ cd binaries/Linux/intel/static
 ps -ef | grep vlmcsd-x64-musl-static
 ```
 
-![Snipaste_2018-07-20_15-34-46](https://lichen0.cn/Snipaste/Snipaste_2018-07-20_15-34-46.png)
+![Snipaste_2018-07-20_15-34-46](https://i.lichen0.com/Snipaste/Snipaste_2018-07-20_15-34-46.png)
 
 激活服务器需要用到1688端口，请在安全组中放通
 
@@ -87,6 +87,6 @@ $kms_server = 'xxxx';
 
 3. 选择系统，点击即可生成一键激活脚本
 
-![Snipaste_2018-07-20_15-54-12](https://lichen0.cn/Snipaste/Snipaste_2018-07-20_15-54-12.png)
+![Snipaste_2018-07-20_15-54-12](https://i.lichen0.com/Snipaste/Snipaste_2018-07-20_15-54-12.png)
 
-![Snipaste_2018-07-20_15-54-25](https://lichen0.cn/Snipaste/Snipaste_2018-07-20_15-54-25.png)
+![Snipaste_2018-07-20_15-54-25](https://i.lichen0.com/Snipaste/Snipaste_2018-07-20_15-54-25.png)
