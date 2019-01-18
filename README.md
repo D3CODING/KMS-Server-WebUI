@@ -126,7 +126,7 @@ cat /proc/cpuinfo
 ![](https://img04.sogoucdn.com/app/a/100520146/c7d577f787241c436f8a8e534b4b4524)
 
 3. Enter the corresponding catalog and run the activation server
-- Notice: You need to choose the corresponding binary files need to be selected according to the CPU p, which is used here."vlmcsd-x64-musl-static"
+- Notice: You need to choose the corresponding binary files need to be selected according to the CPU platform, which is used here."vlmcsd-x64-musl-static"
 ```
 cd binaries/Linux/intel/static
 ./vlmcsd-x64-musl-static
