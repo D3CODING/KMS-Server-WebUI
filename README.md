@@ -1,5 +1,5 @@
 
-*  [中文版](#KMS激活服务器及在线生成一键激活脚本)
+*  [中文版](#中文版)
     *  [安装](#安装)
     *  [关闭](#关闭)
     *  [激活](#激活)
@@ -184,7 +184,7 @@ if (!-f $request_filename && !-d $request_filename && -f %{REQUEST_FILENAME}.php
 ```
 
 **Upload source code**
-1. Run kms.php and change KMS sever URL
+1. Open kms.php and change KMS sever URL
 ![](https://ws3.sinaimg.cn/large/005BYqpgly1fzazda2my0j30ll05zjrm.jpg)
 
 
