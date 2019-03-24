@@ -84,8 +84,10 @@ RewriteRule ^(.+)$ /$1.php [L,QSA]
 
 - Nginx规则添加到对应的conf文件
 ```
-if (!-f $request_filename && !-d $request_filename && -f %{REQUEST_FILENAME}.php) {
-    rewrite ^/(.+)$ /$1.php last;
+location / {
+  if (!-e $request_filename){
+    rewrite ^(.+)$ /$1.php break;
+  }
 }
 ```
 
@@ -178,8 +180,10 @@ RewriteRule ^(.+)$ /$1.php [L,QSA]
 
 - Nginx rules add to corresponding conf files
 ```
-if (!-f $request_filename && !-d $request_filename && -f %{REQUEST_FILENAME}.php) {
-    rewrite ^/(.+)$ /$1.php last;
+location / {
+  if (!-e $request_filename){
+    rewrite ^(.+)$ /$1.php break;
+  }
 }
 ```
 
