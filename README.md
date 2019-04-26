@@ -13,7 +13,7 @@
 ## 中文版
 KMS激活服务器及在线生成一键激活脚本
 
-![](https://ws3.sinaimg.cn/large/005BYqpgly1fzayfz9h1hj30j00kqjsx.jpg)
+![](https://i.loli.net/2019/04/26/5cc3281c15cdf.jpg)
 ## 安装
 **以CentOS系统为例**
 1. 下载"kms.tar.gz"到服务器并解压
@@ -28,8 +28,6 @@ tar xzf kms.tar.gz
 ```
 cat /proc/cpuinfo
 ```
-
-![](https://img04.sogoucdn.com/app/a/100520146/c7d577f787241c436f8a8e534b4b4524)
 
 3. 进入对应目录，运行激活服务器
 - 注意：需要根据CPU架构选择对应二进制文件，这里使用的是"vlmcsd-x64-musl-static"
@@ -51,8 +49,6 @@ firewall-cmd --reload   #重载生效
 ```
 ps -ef | grep vlmcsd-x64-musl-static    #请替换对应文件名
 ```
-
-![](https://img02.sogoucdn.com/app/a/100520146/218e7079fdd39efb633f83c482898f8a)
 
 2. 关闭
 
@@ -93,7 +89,7 @@ location / {
 
 **上传源码**
 1. 打开kms.php修改KMS服务器地址
-![](https://ws3.sinaimg.cn/large/005BYqpgly1fzazda2my0j30ll05zjrm.jpg)
+![](https://i.loli.net/2019/04/26/5cc328766e67c.jpg)
 
 
 2. 将index.html、kms.php、clean.php上传到网页目录（Apache需要将.htaccess上传至网站根目录）
@@ -109,7 +105,7 @@ location / {
 # English
 KMS activation server and generate a key activation script Online
 
-![](https://ws3.sinaimg.cn/large/005BYqpgly1fzb04maat1j30h70gmab3.jpg)
+![](https://i.loli.net/2019/04/26/5cc3289a5f1d4.jpg)
 ## Setup
 **Take CentOS system as example**
 1. Download"kms.tar.gz" to the sever and unzip
@@ -124,8 +120,6 @@ tar xzf kms.tar.gz
 ```
 cat /proc/cpuinfo
 ```
-
-![](https://img04.sogoucdn.com/app/a/100520146/c7d577f787241c436f8a8e534b4b4524)
 
 3. Enter the corresponding catalog and run the activation server
 - Notice: You need to choose the corresponding binary files need to be selected according to the CPU platform, which is used here."vlmcsd-x64-musl-static"
@@ -147,8 +141,6 @@ firewall-cmd --reload   #reload to valid
 ```
 ps -ef | grep vlmcsd-x64-musl-static    #please replace corresponding file name
 ```
-
-![](https://img02.sogoucdn.com/app/a/100520146/218e7079fdd39efb633f83c482898f8a)
 
 2. Exit
 
@@ -189,7 +181,7 @@ location / {
 
 **Upload source code**
 1. Open kms.php and change KMS sever URL
-![](https://ws3.sinaimg.cn/large/005BYqpgly1fzazda2my0j30ll05zjrm.jpg)
+![](https://i.loli.net/2019/04/26/5cc328766e67c.jpg)
 
 
 2. Upload index.html、kms.php、clean.php to web sever root directory（Apache need to upload .htaccess to the web sever root directory）
