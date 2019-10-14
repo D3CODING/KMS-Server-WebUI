@@ -131,7 +131,7 @@ cd binaries/Linux/intel/static
 - If you want to use the firewalld, you need to add 1688(TCP) port
 
 ```
-firewall-cmd --zone=public --add-port=80/tcp --permanent #add
+firewall-cmd --zone=public --add-port=1688/tcp --permanent #add
 firewall-cmd --reload   #reload to valid
 ```
 ## Exit
