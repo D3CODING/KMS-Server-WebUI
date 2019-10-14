@@ -39,7 +39,7 @@ cd binaries/Linux/intel/static
 - 如开启firewalld需要开放1688(TCP)端口
 
 ```
-firewall-cmd --zone=public --add-port=80/tcp --permanent #添加
+firewall-cmd --zone=public --add-port=1688/tcp --permanent #添加
 firewall-cmd --reload   #重载生效
 ```
 ## 关闭
